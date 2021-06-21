@@ -1,4 +1,8 @@
-# ENLIVE
+# Fork of ENLIVE
+__This repository is a fork of the ENLIVE repository and meant to hold the reconstructions and outputs so they don't need to be run again__
+Run notes:
+1. BART v0.6.00
+
 The scripts in this repository reproduce the
 experiments of:
 

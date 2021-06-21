@@ -1,0 +1,8 @@
+# Dimensions
+1 192 192 1 2 1 1 1 1 1 1 1 1 1 1 1 
+# Command
+nlinv -d4 -m2 -U -a240 -b40 -i8 -R3 -S data/unders_3 reco_ENLIVE/r_mmu_3 
+# Files
+ >reco_ENLIVE/r_mmu_3 <data/unders_3
+# Creator
+BART v0.6.00

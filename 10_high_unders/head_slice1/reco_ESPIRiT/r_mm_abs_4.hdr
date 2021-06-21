@@ -1,0 +1,8 @@
+# Dimensions
+1 192 192 1 1 1 1 1 1 1 1 1 1 1 1 1 
+# Command
+rss 1024 reco_ESPIRiT/r_mm_4 reco_ESPIRiT/r_mm_abs_4 
+# Files
+ >reco_ESPIRiT/r_mm_abs_4 <reco_ESPIRiT/r_mm_4
+# Creator
+BART v0.6.00

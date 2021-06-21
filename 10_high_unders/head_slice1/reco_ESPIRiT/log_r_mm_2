@@ -1,0 +1,8 @@
+Size: 36864 Samples: 7527 Acc: 4.90
+Calibration region...  (size: 1x20x20, pos: 0x86x86)
+Scaling: 0.010654  (max = 0.014953/p90 = 0.010654/median = 0.003616)
+Inverse scaling of the data: 0.010654
+l2 regularization: 0.001000
+conjugate gradients
+	 cg:  30
+Total Time: 0.338289

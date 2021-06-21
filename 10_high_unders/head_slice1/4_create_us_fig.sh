@@ -6,7 +6,7 @@ source opts.sh
 ENLIVE=reco_ENLIVE
 ESPIRIT=reco_ESPIRiT
 US=${USs[0]}
-Y=$(identify -format "%[fx:h]" $ENLIVE/r_mm_${US}.png)
+Y=$(identify -format "%[fx:h]" $ENLIVE/r_mm_${US}_.png)
 #set density. 72 means 1pt is 1 pxl
 DENSITY=$( echo 'scale=5; 72/192*'$Y | bc)
 FONTSIZE=$( echo 'scale=0; 192/6' | bc)
@@ -27,11 +27,11 @@ scale_and_text()
 
 for US in "${USs[@]}"
 do
-    pat="../data/pat_${US}.png"
-    enl="../"${ENLIVE}"/r_mm_${US}.png"
-    m1="../${ENLIVE}/r_mmu_${US}_map_0000.png"
-    m2="../${ENLIVE}/r_mmu_${US}_map_0001.png"
-    es="../${ESPIRIT}/r_mm_${US}.png"
+    pat="../data/pat_${US}_.png"
+    enl="../"${ENLIVE}"/r_mm_${US}_.png"
+    m1="../${ENLIVE}/r_mmu_${US}_m0000.png"
+    m2="../${ENLIVE}/r_mmu_${US}_m0001.png"
+    es="../${ESPIRIT}/r_mm_${US}_.png"
 
     # last row is different
     if [[ $US == "${USs[-1]}" ]]

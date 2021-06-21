@@ -1,0 +1,8 @@
+# Dimensions
+1 192 192 1 1 1 1 1 1 1 1 1 1 1 1 1 
+# Command
+pics -d4 -S -r0.001 data/unders_4 sens_m1_4 reco_ESPIRiT/r_mm_4 
+# Files
+ >reco_ESPIRiT/r_mm_4 <sens_m1_4 <data/unders_4
+# Creator
+BART v0.6.00

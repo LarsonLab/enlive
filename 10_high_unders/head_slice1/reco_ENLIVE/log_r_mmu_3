@@ -1,0 +1,18 @@
+Scaling: 81.061401
+Step: 0, Res: 100.000003
+	 cg:   0
+Step: 1, Res: 94.304102
+	 cg:   0
+Step: 2, Res: 85.340915
+	 cg:   0
+Step: 3, Res: 51.216860
+	 cg:   2
+Step: 4, Res: 19.623322
+	 cg:   7
+Step: 5, Res: 6.395209
+	 cg:  28
+Step: 6, Res: 3.765088
+	 cg:  66
+Step: 7, Res: 3.081439
+	 cg: 100
+Total time: 9.41 s
